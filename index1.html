@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        a.portfolio-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a.portfolio-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Skills</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html" class="portfolio-link">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Programming Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Design Skills</h2>
+        <ul>
+            <li>Adobe Photoshop</li>
+            <li>Microsoft Excel</li>
+            <li>Microsoft Word</li>
+            <li>Microsoft Powerpoint</li>
+            <li>Blender</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Other Skills</h2>
+        <ul>
+            <li>Knowledge of WXmaxima</li>
+            <li>IT Sector</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>For examples of my work, please visit my <a href="portfolio.html" class="portfolio-link">portfolio</a>.</p>
+    </footer>
+
+    <script>
+        // Example JavaScript for interactivity (you can replace this with your own logic)
+        const portfolioLink = document.querySelector('.portfolio-link');
+        portfolioLink.addEventListener('click', function(event) {
+            alert("You clicked on the portfolio link!");
+            // You can add your own functionality here, such as opening the portfolio in a new window.
+            // For example: window.open('link_to_portfolio.html', '_blank');
+            event.preventDefault(); // Prevent the default link behavior
+        });
+    </script>
+</body>
+</html>
+
